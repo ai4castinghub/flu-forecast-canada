@@ -7,7 +7,6 @@ on:
     # So 21:00 UTC for safety
     - cron: '0 21 * * THU'
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,6 +29,9 @@ jobs:
       - name: Download latest data
         run: python target-data/rvdss_update.py
 
+      - name: Add new files
+        run: git add data/  # This ensures the new 'data/' directory and its contents are added to the git index
+      
       - name: Commit results
         run: |
           git config --local user.name "$GITHUB_ACTOR"
