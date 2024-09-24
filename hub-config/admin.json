@@ -1,0 +1,17 @@
+{
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v3.0.1/admin-schema.json",
+    "name": "AI 4Casting Hub",
+    "maintainer": "AI 4Casting Hub",
+    "contact": {
+        "name": "Sid Kadam",
+        "email": "skadam@uoguelph.ca"
+    },
+    "repository": {
+        "host": "github",
+        "owner": "AI 4Casting Hub",
+        "name": "dummyHub"
+    },
+    "file_format": ["csv"],
+    "timezone": "US/Eastern",
+    "model_output_dir": "model-output"
+}
