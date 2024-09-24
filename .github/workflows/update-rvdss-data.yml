@@ -28,7 +28,7 @@ jobs:
         run: pip install -r requirements.txt
       
       - name: Download latest data
-        run: python src/rvdss_update.py
+        run: python target-data/rvdss_update.py
 
       - name: Commit results
         run: |
