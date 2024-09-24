@@ -201,6 +201,12 @@ base_url = "https://health-infobase.canada.ca/src/data/respiratory-virus-detecti
 weekly_data = get_weekly_data(base_url,2024).set_index(['epiweek', 'time_value', 'issue', 'geo_type', 'geo_value'])
 positive_data = get_revised_data(base_url)
 
+directory = './data/season_2024_2025/'
+
+# Check if the directory exists, and if not, create it
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
 path1 = './data/season_2024_2025/respiratory_detections.csv'
 path2 = './data/season_2024_2025/positive_tests.csv'
 
