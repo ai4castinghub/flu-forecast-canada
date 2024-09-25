@@ -207,8 +207,8 @@ directory = './data/season_2024_2025/'
 if not os.path.exists(directory):
     os.makedirs(directory)
 
-path1 = './data/season_2024_2025/respiratory_detections.csv'
-path2 = './data/season_2024_2025/positive_tests.csv'
+path1 = './data/rvdss/season_2024_2025/respiratory_detections.csv'
+path2 = './data/rvdss/season_2024_2025/positive_tests.csv'
 
 if os.path.exists(path1)==False:
     weekly_data.to_csv(path1,index=True)
