@@ -30,7 +30,7 @@ jobs:
         run: python target-data/rvdss_update.py
 
       - name: Add new files
-        run: git add data/  # This ensures the new 'data/' directory and its contents are added to the git index
+        run: git add target-data/  # This ensures the new 'data/' directory and its contents are added to the git index
       
       - name: Commit results
         run: |
