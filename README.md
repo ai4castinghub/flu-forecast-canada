@@ -1,5 +1,5 @@
 # AI4Casting Hub  
-Welcome to the AI4Casting Hub, an innovative initiative under the College of Engineering and Physical Sciences (CEPS) at the University of Guelph. Our mission is to drive the future of public health forecasting and preparedness. Anyone interested in using these data for additional research or publications is requested to contact **forecasts@ai4castinghub.com** for information regarding attribution of the source forecasts.
+Welcome to the AI4Casting Hub, an innovative initiative under the College of Engineering and Physical Sciences (CEPS) at the University of Guelph. Our mission is to drive the future of public health forecasting and preparedness. Anyone interested in using these data for additional research or publications is requested to contact **4castinghub@uoguelph.ca** for information regarding attribution of the source forecasts.
 
 ## Epidemic Forecasts for COVID-19, RSV, and Flu  
 At the AI4Casting Hub, we provide continuous epidemic forecasts to support public health planning and pandemic preparedness. Using mathematical, statistical, and computational models, we forecast both endemic and emerging diseases. Our work is backed by Ontario Public Health, the CDC, and several prominent Canadian researchers.
@@ -20,7 +20,7 @@ Teams are encouraged to submit forecasts for the epidemiological week (EW) endin
 
 There are standard software packages to convert from dates to epidemic weeks and vice versa (e.g., [MMWRweek](https://cran.r-project.org/web/packages/MMWRweek/) and [lubridate](https://lubridate.tidyverse.org/reference/week.html) for R, and [pymmwr](https://pypi.org/project/pymmwr/) and [epiweeks](https://pypi.org/project/epiweeks/) for Python).
 
-If you have questions about this target, please reach out to **Dr. Monica Cojocaru** (**monica.cojocaru@uoguelph.ca**).
+If you have questions about this target, please reach out to **Dr. Monica Cojocaru** (**4castinghub@uoguelph.ca**).
 
 ## Acknowledgments  
 This repository follows the guidelines and standards outlined by the [hubverse](https://hubdocs.readthedocs.io/en/latest/), which provides a set of data formats and open-source tools for modeling hubs.
