@@ -13,7 +13,7 @@ Participating teams are asked to provide **regional and national** predictions f
 - **Incident infections**: The number of positive tests, either summed across COVID-19, RSV, and flu, or provided separately for each.
 - **Hospital bed occupancy**: Either summed across the three diseases or provided separately for each.
 
-Geographical regions of interest include **Ontario, Quebec, British Columbia, the Prairies, Atlantic Canada, Territories, and Canada as a whole**. For Ontario, forecasts can be broken down by individual regions. 
+Geographical regions of interest include **Provinces and Regions of Canada, and Canada as a whole**. For **Ontario Hospital Bed Occupancy**, forecasts can be broken down by individual Health Regions. 
 
 Teams are encouraged to submit forecasts for the epidemiological week (EW) ending on the reference date, as well as for **-1, 0, 1, 2, and 3-week horizons**. While not mandatory, teams may choose to submit forecasts for all locations and horizons. The evaluation data for forecasts will be the **weekly aggregate of confirmed cases and hospital occupancy data**. The target end date for a prediction is the Saturday that ends an EW of interest, and can be calculated using the formula:  
 **target end date = reference date + horizon * (7 days)**.
