@@ -198,17 +198,17 @@ def get_weekly_data(base_url,start_year):
 
 base_url = "https://health-infobase.canada.ca/src/data/respiratory-virus-detections/"
 
-weekly_data = get_weekly_data(base_url,2023).set_index(['epiweek', 'time_value', 'issue', 'geo_type', 'geo_value'])
+weekly_data = get_weekly_data(base_url,2022).set_index(['epiweek', 'time_value', 'issue', 'geo_type', 'geo_value'])
 positive_data = get_revised_data(base_url)
 
-directory = './target-data/rvdss/season_2023_2024/'  #'./target-data/rvdss/season_2024_2025/'
+directory = './target-data/rvdss/season_2022_2023/'  #'./target-data/rvdss/season_2024_2025/'
 
 # Check if the directory exists, and if not, create it
 if not os.path.exists(directory):
     os.makedirs(directory)
 
-path1 = './target-data/rvdss/season_2023_2024/respiratory_detections.csv'  #'./target-data/rvdss/season_2024_2025/respiratory_detections.csv'
-path2 = './target-data/rvdss/season_2023_2024/positive_tests.csv'  #'./target-data/rvdss/season_2024_2025/positive_tests.csv'
+path1 = './target-data/rvdss/season_2022_2023/respiratory_detections.csv'  #'./target-data/rvdss/season_2024_2025/respiratory_detections.csv'
+path2 = './target-data/rvdss/season_2022_2023/positive_tests.csv'  #'./target-data/rvdss/season_2024_2025/positive_tests.csv'
 
 if os.path.exists(path1)==False:
     weekly_data.to_csv(path1,index=True)
